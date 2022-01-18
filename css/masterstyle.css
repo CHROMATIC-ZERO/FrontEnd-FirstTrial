@@ -1,0 +1,207 @@
+/* HTML Elements */
+  /* Body General Settings: */
+
+body{
+  font-family: "Oswald";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arvo";
+}
+
+/* Selectors */
+  /* Specific class settings: Navbar Stuff */
+
+.navbar{
+  margin-bottom: 70px;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav{
+  margin-left: 380px;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Title + Buttons Settings */
+.container-fluid {
+  padding:7% 15%;
+}
+
+.title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.mainheading{
+  color: linen;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 70px;
+  text-align: justify;
+}
+
+.title {
+  background-color: #8946A6;
+}
+
+.tbtn{
+  margin-left: 15px;
+}
+.capivara{
+  width: 80%;
+  margin-left: 30px;
+}
+@media (max-width: 1028px){
+  .special-img{
+    text-align: center;
+  }
+  .capivara{
+    position: static;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+}
+
+/* Features Settings */
+.features{
+  background-color: #FFF;
+}
+
+.featurtitle{
+  font-family: "Arvo";
+  color: #8946A6;
+}
+
+.col-lg-4{
+  padding: 5%;
+}
+
+.icon{
+  color: #8946A6;
+  padding-bottom: 10px;
+}
+
+.icon:hover{
+  color: #96CEB4;
+}
+
+/* Testimonial Settings */
+
+.testimonials{
+  background-color: #8946A6;
+  color: linen;
+}
+
+.testimonialheader{
+  color: linen;
+  font-size: 3rem;
+}
+
+.testimonial-img{
+  border-radius: 50%;
+  width: 10%;
+  margin:20px;
+}
+
+/* Press Settings */
+.press{
+  padding-bottom: 5%;
+  background-color: #8946A6;
+}
+
+.press-present{
+  padding-bottom: 3%;
+  color: linen;
+  font-size: 3rem;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Settings */
+.pricing{
+  background-color: #FFF;
+}
+
+.pricingmaintitle{
+  color: #8946A6;
+  font-size: 3rem;
+}
+
+.pricespecifics{
+  font-family: "Arvo";
+  color: #8946A6;
+}
+
+.plantitle{
+  color: #8946A6;
+  font-size: 3rem;
+}
+
+.btnc:hover{
+  color: #96CEB4;
+}
+
+.price-card{
+  padding: 3% 2%;
+}
+
+/* cta Settings */
+.cta{
+  background-color: #8946A6;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: linen;
+}
+
+.cta-title{
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-family: "Arvo";
+  color: linen;
+}
+
+.ctabutton{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ctabutton:hover{
+  color: #96CEB4;
+}
+
+/* Footer Settings: to be concluded */
+.footer{
+  background-color: #FFF;
+  color: #8946A6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.linkicon{
+  color: #8946A6;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.linkicon:hover{
+  color: #96CEB4;
+}
+
+.copyright-footer{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
